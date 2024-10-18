@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2> Give an value for counte.</h2>
+    <div class="main_div">
+       <div class="allValue">
+          <div class="tagValue">
+             <p>Counting from 0 to <span class="spanNumber"></span></p>
+             <input class="oneInput" type="number" placeholder="Enter an value">
+             <button onclick="oneButton(0)">Go</button>
+          </div>
+          <div class="box">
+             <h1 class="result" data-number=""></h1>
+          </div>
+       </div>
+       <div class="allValue">
+          <div class="tagValue">
+             <p>Counting from 0 to <span class="spanNumber"></span></p>
+             <input class="oneInput" type="number" placeholder="Enter an value">
+             <button onclick="oneButton(1)">Go</button>
+          </div>
+          <div class="box">
+             <h1 class="result" data-number=""></h1>
+          </div>
+       </div>
+       <div class="allValue">
+          <div class="tagValue">
+             <p>Counting from 0 to <span class="spanNumber"></span></p>
+             <input class="oneInput" type="number" placeholder="Enter an value">
+             <button onclick="oneButton(2)">Go</button>
+          </div>
+          <div class="box">
+             <h1 class="result" data-number=""></h1>
+          </div>
+       </div>
+ 
+    </div>
+ 
+    <button class="countN" onclick="countN()">Let's count</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
